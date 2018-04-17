@@ -3,7 +3,9 @@
 https://xteamintegrationtesting.auth.us-east-1.amazoncognito.com/signup?response_type=token&client_id=4flhu2hgtmm513v1haiab76bvn&redirect_uri=https://www.beachbodyondemand.com/)
 
 [Deployed Signup demo from this app:](http://xteamintegrationtest-hosting-mobilehub-1813410687.s3-website-us-east-1.amazonaws.com/)
+
 Password min length: 6
+
 Open browser console to see result user from Cognito
 
 ## Setup
