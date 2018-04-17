@@ -11,7 +11,7 @@ Open browser console to see result user from Cognito
 ## Setup
 - Clone the repo
 
-- [Install and Configure aws cli.] (https://docs.aws.amazon.com/cli/latest/userguide/installing.html)
+[Install and Configure aws cli](https://docs.aws.amazon.com/cli/latest/userguide/installing.html)
 
 In MAC is better to just use brew to install Python & pip
 
