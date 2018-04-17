@@ -17,9 +17,6 @@ const userPool = new CognitoUserPool({
   ClientId: appConfig.ClientId,
 });
 
-
-
-
 class SignUpForm extends React.Component {
   constructor(props) {
     super(props);
