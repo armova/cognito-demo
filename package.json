@@ -1,0 +1,21 @@
+{
+  "name": "aws-test-app1",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "amazon-cognito-auth-js": "^1.1.9",
+    "amazon-cognito-identity-js": "^2.0.3",
+    "aws-sdk": "^2.224.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "prebuild": "aws s3 cp s3://xteamintegrationtest-hosting-mobilehub-1813410687/aws-exports.js ./src/aws-exports.js",
+    "build": "react-scripts build",
+    "deploy": "aws s3 cp build s3://xteamintegrationtest-hosting-mobilehub-1813410687 --recursive",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
